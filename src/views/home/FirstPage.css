@@ -1,0 +1,56 @@
+.main__layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 0px;
+  height: 35px;
+}
+.main__layout_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_outline {
+  padding-right: 10px;
+  padding-top: 7px;
+}
+.phone_outline {
+  padding-right: 7px;
+}
+.about_outline {
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 15px;
+}
+.number_outline {
+  padding-right: 15px;
+  padding-top: 10px;
+}
+.number_outline_one {
+  padding-top: 5px;
+}
+.sales_roncurrie {
+  padding-top: 10px;
+}
+.akash_mail {
+  padding-top: 10px;
+}
+.number_outline:hover {
+  color: #940000;
+  cursor: pointer;
+}
+.about_outline:hover {
+  color: #940000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.staright_line {
+  display: block;
+  margin-top: -4px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: pink 0px 5px 8px;
+}
